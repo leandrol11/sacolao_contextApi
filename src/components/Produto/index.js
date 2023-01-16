@@ -37,7 +37,7 @@ function Produto({
           color="secondary"
           disabled={!produtoNoCarrinho}
           onClick={() => {
-            removerProduto({ id })
+            removerProduto(id)
           }}
         >
 
